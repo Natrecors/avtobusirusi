@@ -1,4 +1,3 @@
-Here’s a structured version for your GitHub README:
 
 ---
 
@@ -22,6 +21,9 @@ The training environment is engaging and motivating, offering a role-playing exp
 
 - **React Native**
 - **Expo**
+- **Type Script**
+- **HTML**
+- **DataBase**
 
 ## Installation
 
@@ -45,4 +47,31 @@ To run the app locally, follow these steps:
 
 ---
 
-Feel free to adjust the installation instructions based on how you would like users to interact with the app.
+To run the database locally, follow these steps:
+1. Open location server to run:
+   ```cd responsary
+   git clone https://github.com/your-username/your-repository.git
+   ```
+
+
+
+
+
+   Server-Side Setup
+To run the server for the database, follow these steps(pre requirement to be installed node.js) :
+
+1.Navigate to the server directory:
+
+   ```bash
+   cd your-repository
+   cd screens
+   cd test
+   ```
+2.Start the server:
+
+```bash
+node server.js
+```
+
+This will start the server, which handles database interactions for the mobile app.
+
